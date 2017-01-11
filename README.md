@@ -15,7 +15,7 @@ Converts
         <country th:text="${pinfo['country']}"></country>
     </person>
 </persons>
-```xml
+```
 
 to 
 
@@ -28,4 +28,4 @@ to
         <country>USA</country>
     </person>
 </persons>
-```xml
+```
