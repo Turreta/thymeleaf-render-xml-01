@@ -6,7 +6,7 @@ Render XML template using Spring Boot + Thymeleaf
 
 Converts 
 
-'''xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <persons>
     <person>
@@ -15,10 +15,17 @@ Converts
         <country th:text="${pinfo['country']}"></country>
     </person>
 </persons>
-'''xml
+```xml
 
 to 
 
-'''xml
-
-
+```xml
+<?xml version="1.0"?>
+<persons>
+    <person>
+        <fname>Jordan</fname>
+        <lname>Michael</lname>
+        <country>USA</country>
+    </person>
+</persons>
+```xml
