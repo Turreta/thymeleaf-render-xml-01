@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <person>
+        <fname th:text="${pinfo['lastname']}"></fname>
+        <lname th:text="${pinfo['firstname']}"></lname>
+        <country th:text="${pinfo['country']}"></country>
+    </person>
+</persons>
